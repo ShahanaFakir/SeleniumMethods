@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-30T03:01:48 EDT" name="Default suite" finished-at="2022-06-30T03:02:13 EDT" duration-ms="24860">
+    <groups>
+    </groups>
+    <test started-at="2022-06-30T03:01:48 EDT" name="Default test" finished-at="2022-06-30T03:02:13 EDT" duration-ms="24860">
+      <class name="hw14_selenium_methods.ClickMethodsForIdName">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hw14_selenium_methods.ClickMethodsForIdName@6404f418]" started-at="2022-06-30T03:01:48 EDT" name="setup" finished-at="2022-06-30T03:01:51 EDT" duration-ms="3412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signInButtontest()[pri:0, instance:hw14_selenium_methods.ClickMethodsForIdName@6404f418]" started-at="2022-06-30T03:01:51 EDT" name="signInButtontest" finished-at="2022-06-30T03:02:12 EDT" duration-ms="21038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInButtontest -->
+        <test-method is-config="true" signature="endingBrowser()[pri:0, instance:hw14_selenium_methods.ClickMethodsForIdName@6404f418]" started-at="2022-06-30T03:02:12 EDT" name="endingBrowser" finished-at="2022-06-30T03:02:13 EDT" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endingBrowser -->
+      </class> <!-- hw14_selenium_methods.ClickMethodsForIdName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
