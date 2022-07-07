@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw14_selenium_methods.ClickMethodsForIdName">
+      <class name="hw15_selenium_methods.GetTextMethods">
         <methods>
           <include name="setup"/>
+          <include name="getTheTexttest"/>
           <include name="endingBrowser"/>
-          <include name="signInButtontest"/>
         </methods>
-      </class> <!-- hw14_selenium_methods.ClickMethodsForIdName -->
+      </class> <!-- hw15_selenium_methods.GetTextMethods -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
