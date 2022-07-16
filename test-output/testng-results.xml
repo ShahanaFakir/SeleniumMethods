@@ -1,25 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-07T14:30:29 EDT" name="Default suite" finished-at="2022-07-07T14:30:35 EDT" duration-ms="6246">
+  <suite started-at="2022-07-15T01:32:45 EDT" name="Default suite" finished-at="2022-07-15T01:33:41 EDT" duration-ms="55279">
     <groups>
     </groups>
-    <test started-at="2022-07-07T14:30:29 EDT" name="Default test" finished-at="2022-07-07T14:30:35 EDT" duration-ms="6246">
-      <class name="hw15_selenium_methods.GetTextMethods">
-        <test-method is-config="true" signature="setup()[pri:0, instance:hw15_selenium_methods.GetTextMethods@316bcf94]" started-at="2022-07-07T14:30:29 EDT" name="setup" finished-at="2022-07-07T14:30:34 EDT" duration-ms="4909" status="PASS">
+    <test started-at="2022-07-15T01:32:45 EDT" name="Default test" finished-at="2022-07-15T01:33:41 EDT" duration-ms="55279">
+      <class name="lec27_java_selenium_methods.D11_web_based_alert">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:lec27_java_selenium_methods.D11_web_based_alert@23c30a20]" started-at="2022-07-15T01:32:46 EDT" name="setUp" finished-at="2022-07-15T01:32:49 EDT" duration-ms="3887" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getTheTexttest()[pri:0, instance:hw15_selenium_methods.GetTextMethods@316bcf94]" started-at="2022-07-07T14:30:34 EDT" name="getTheTexttest" finished-at="2022-07-07T14:30:35 EDT" duration-ms="1035" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="acceptTheAlertFromWeb()[pri:1, instance:lec27_java_selenium_methods.D11_web_based_alert@23c30a20]" started-at="2022-07-15T01:32:49 EDT" name="acceptTheAlertFromWeb" finished-at="2022-07-15T01:32:58 EDT" duration-ms="8113" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTheTexttest -->
-        <test-method is-config="true" signature="endingBrowser()[pri:0, instance:hw15_selenium_methods.GetTextMethods@316bcf94]" started-at="2022-07-07T14:30:35 EDT" name="endingBrowser" finished-at="2022-07-07T14:30:35 EDT" duration-ms="270" status="PASS">
+        </test-method> <!-- acceptTheAlertFromWeb -->
+        <test-method signature="dismissTheAlertFromWeb()[pri:2, instance:lec27_java_selenium_methods.D11_web_based_alert@23c30a20]" started-at="2022-07-15T01:32:58 EDT" name="dismissTheAlertFromWeb" finished-at="2022-07-15T01:33:41 EDT" duration-ms="43088" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-1UCDMIU', ip: '192.168.0.18', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8ef8eec9f50e5acf7fbbfb64212a7ee, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\misai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64688}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64688/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e8ef8eec9f50e5acf7fbbfb64212a7ee]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-1UCDMIU', ip: '192.168.0.18', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8ef8eec9f50e5acf7fbbfb64212a7ee, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\misai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64688}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64688/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e8ef8eec9f50e5acf7fbbfb64212a7ee
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1143)
+at lec27_java_selenium_methods.D11_web_based_alert.dismissTheAlertFromWeb(D11_web_based_alert.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endingBrowser -->
-      </class> <!-- hw15_selenium_methods.GetTextMethods -->
+        </test-method> <!-- dismissTheAlertFromWeb -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:lec27_java_selenium_methods.D11_web_based_alert@23c30a20]" started-at="2022-07-15T01:33:41 EDT" name="tearUp" finished-at="2022-07-15T01:33:41 EDT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- lec27_java_selenium_methods.D11_web_based_alert -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
