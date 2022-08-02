@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="lec27_java_selenium_methods.D11_web_based_alert">
+      <class name="seleniumMethods.SendKeysWithEnter">
         <methods>
-          <include name="tearUp"/>
-          <include name="dismissTheAlertFromWeb"/>
-          <include name="setUp"/>
+          <include name="searchingProductTest"/>
+          <include name="endingBrowser"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- lec27_java_selenium_methods.D11_web_based_alert -->
+      </class> <!-- seleniumMethods.SendKeysWithEnter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
